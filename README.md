@@ -18,7 +18,7 @@ Have a peek at the project, it is now a richer library with additional functions
    Next, modify the **BookAnalyzer** class to receive a list of keywords per genre.<br/>
    (notice that you do not have to change the *BookAnalyzer.'analyzeBook'* method)<br/>
    Inside **Main.main()**, uncomment commented code 1 (section with the books), and make sure main passes successfully.<br/>
-   Also look into the generated log file and make sure that all created books have a genre.<br/>
+   Also look into the generated log file and make sure that all created books have a genre.
 <br/>
 
 3. You are now going to write a random user generator that generates users and loads them into the data store.<br/>
