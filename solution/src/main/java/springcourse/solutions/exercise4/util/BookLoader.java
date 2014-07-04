@@ -1,10 +1,10 @@
-package springcourse.exercises.exercise4.util;
+package springcourse.solutions.exercise4.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
-import springcourse.exercises.exercise4.Library;
-import springcourse.exercises.exercise4.model.Book;
+import springcourse.solutions.exercise4.Library;
+import springcourse.solutions.exercise4.model.Book;
 
 import javax.annotation.PostConstruct;
 import java.io.BufferedReader;
@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
 
 /**
  * @author Amit Tal
- * @since 4/16/2014
+ * @since 3/30/14
  */
 @Component
 public class BookLoader {
