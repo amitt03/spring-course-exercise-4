@@ -13,12 +13,12 @@ Have a peek at the project, it is now a richer library with additional functions
 <br/>
 
 2. Currently the **BookAnalyzer** class only has **ONE** keyword to define a genre.<br/>
-   Change the **BookAnalyzer** class so that each genre is composed up of MANY keywords.<br/>
-   Bellow is a *'keywords appendix'*, add all of these keywords to the *'books-analyzer.properties'* property file.<br/>
-   Next, modify the **BookAnalyzer** class to receive a list of keywords per genre.<br/>
-   (notice that you do not have to change the *BookAnalyzer.'analyzeBook'* method)<br/>
-   Inside **Main.main()**, uncomment commented code 1 (section with the books), and make sure main passes successfully.<br/>
-   Also look into the generated log file and make sure that all created books have a genre.
+   - Change the **BookAnalyzer** class so that each genre is composed up of MANY keywords.<br/>
+     Bellow is a *'keywords appendix'*, add all of these keywords to the *'books-analyzer.properties'* property file.
+   - Next, modify the **BookAnalyzer** class to receive a list of keywords per genre.<br/>
+     (notice that you do not have to change the *BookAnalyzer.'analyzeBook'* method)<br/>
+   - Inside **Main.main()**, uncomment commented code 1 (section with the books), and make sure main passes successfully.<br/>
+     Also look into the generated log file and make sure that all created books have a genre.
 <br/>
 
 3. You are now going to write a random user generator that generates users and loads them into the data store.<br/>
